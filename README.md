@@ -29,7 +29,7 @@ Masking method: cloudmask s2 proudct and mask for buildings and water
 
 ### Output format and example data
 
-evi_mvp_analysis.R gives two output csv files, one containing a few single value indicators of vegetation health, and one with the mean vegetation index of each polygon mapped to the field ID, including the landuse type. An example output is given in the folder in Francisco_Output, additionally including, a json schema (given below) to better describe the EVIMVP.csv. Example shapefile and vector data in folder Francisco_Vectordata.
+evi_mvp_analysis.R gives two output csv files, one containing a few single value indicators of vegetation health, and one with the mean vegetation index of each polygon mapped to the field ID, including the landuse type. An example output is given in the folder in Francisco_Output, additionally including, a JSON schema (given below) to better describe the EVIMVP.csv. Example shapefile and vector data in folder Francisco_Vectordata.
 
 ```
 {
