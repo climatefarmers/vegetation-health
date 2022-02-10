@@ -1,49 +1,55 @@
 # Agricultural Ecosystem Health Indicator Based on EVI Vegetation Index 
 
-Simple overview of use/purpose.
+EVI, or Enhanced Vegeetation Index is a pixel-by-pixel computation performed over a raster object.  
 
 ## Description
 
 An in-depth paragraph about your project and overview of use.
 
+
 ## Getting Started
+
 
 ### Dependencies
 
-library(raster)
-library(ggplot2)
-library(reshape2)
-library(data.table)
-library(tidyverse)
-library(tidyr)
-library(lubridate)
+library(raster) \
+library(ggplot2) \
+library(reshape2) \ 
+library(data.table) \ 
+library(tidyverse) \
+library(tidyr) \
+library(lubridate) \
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Install above packages 
+* Can clone from: https://github.com/climatefarmers/vegetation-health/
+- [ ] indicate which scripts need file path specifications, etc. 
 
 ### Executing program
 
 * How to run the program
 * Step-by-step bullets
+
+- [ ] NEXT: code block for commands for each file... 
 ```
-code blocks for commands
+code blocks for commands!!! 
 ```
 
 ## Help
 
-Any advise for common problems or issues.
+- [ ] for later! add any advise for common problems or issues....
 ```
-command to run if program contains helper info
+... add a command to run if program contains helper info
 ```
 
 ## Authors
 
-Contributors names and contact info
+Contributors names and contact info 
 
-ex. @Victoria - victoria@climatefarmers.org
-ex. @Martin - martin@climatefarmers.org
+ex. @Martin (Remote Sensing & GIS Engineer - Climate Farmers, Environment Agency Austria) - martin@climatefarmers.org \ 
+ex. @Victoria (Physicst & Data Analyst - Climate Farmers, German Aerospace Center) - victoria@climatefarmers.org (hit me up with Q's!) \ 
+
 
 ## Version History
 
@@ -52,5 +58,5 @@ ex. @Martin - martin@climatefarmers.org
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the [NAME HERE] License.... see the LICENSE.md file for details
 
