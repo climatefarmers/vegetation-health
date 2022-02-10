@@ -43,10 +43,10 @@ calc_evi <- function(infile,mask=TRUE,temp_dir=NULL,outdir=NULL,export=TRUE){
 
 
 ##set working directory
-setwd("D:/NDVI_Francisco/EVI/")
+setwd( )
 
 ###list all Level-2A files 
-S2l2a <- list.files("Y:/Projekte/Fernerkundung/0_Daten/Europe/Sentinel2/",full.names = TRUE)
+S2l2a <- list.files(" ",full.names = TRUE)
 i <- 2
 ## run NDVI-function in a loop
 for(i in seq_along(S2l2a)){
