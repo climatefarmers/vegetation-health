@@ -1,4 +1,4 @@
-# EVI Vegetation Index as Ecosystem Health Indicator
+# Agricultural Ecosystem Health Indicator Based on EVI Vegetation Index 
 
 Simple overview of use/purpose.
 
@@ -43,7 +43,7 @@ command to run if program contains helper info
 Contributors names and contact info
 
 ex. @Victoria - victoria@climatefarmers.org
-ex. @Martin
+ex. @Martin - martin@climatefarmers.org
 
 ## Version History
 
