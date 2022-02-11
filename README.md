@@ -10,14 +10,15 @@ Remote sensing indexes generally serve the purpose of chracterizing the quantity
 
 ### What is the EVI? 
 
-The Enhanced Vegetation Index ...
-Two band EVI Sensor calibration - indexes calculated from different instruments requires recalibration, due to the vareity in detector and filter characteristics.  
+- [ ] The Enhanced Vegetation Index is ...
+- [ ] Two band EVI 
+- [ ] MODIS to S2 sensor calibration - indexes calculated from different instruments requires recalibration, due to the vareity in detector and filter characteristics.....  
 
 ### Method of Comparison! 
 
-This set of programs pulls one year of Sentinal 2 Level 2A data and calculates the EVI of a given farm as well as of a buffer zone of a 10 km radius around the farm, subsequently performaing a temporal aggregation and comparison - calculating the yearly mean EVI for the 
+- [ ] This set of programs pulls one year of Sentinal 2 Level 2A data and calculates the EVI of a given farm as well as of a buffer zone of a 10 km radius around the farm, subsequently performaing a temporal aggregation and comparison - calculating the yearly mean EVI for the.... 
 
-Masking method: cloudmask s2 proudct and mask for buildings and water 
+- [ ] Masking method: cloudmask s2 proudct and mask for buildings and water 
 
 ### Workflow 
 1. wekeo_downloader.py -> download data
