@@ -11,20 +11,20 @@ Remote sensing indexes generally serve the purpose of chracterizing the quantity
 
 ### What is the EVI? 
 
-The Enhanced Vegetation Index (EVI) is a measure of vegetation health based off red, near infrared and sometimes blue reflected spectra. The EVI shares many similarities with the well known index, NDVI (normalized difference vegetation index), and often garners comparable results. However, the NDVI is plagued by fluctuations induced by atmospheric conditions and soil background effects, limiting its applicability accross varied biomes (Matssushita et. al). In comparison, EVI possesses a higher degree of linear correlation with green leaf area index (LAI) in crop fields (Boegh et al., 2002), and a lower tendency to satureate in temperate and tropical forests (Xiao et al., 2004).  
+The Enhanced Vegetation Index (EVI) is a measure of vegetation health based off red, near infrared and sometimes blue reflected spectra. The EVI shares many similarities with the well known index, NDVI (normalized difference vegetation index), and often garners comparable results. The NDVI, however, is plagued by fluctuations induced by atmospheric conditions and soil background effects, limiting its applicability accross varied biomes (Matssushita et. al 2007). In comparison, EVI possesses a higher degree of linear correlation with green leaf area index (LAI) in crop fields (Boegh et al., 2002), and a lower tendency to saturate in temperate and tropical forests (Xiao et al., 2004).  
 
+While there is no singular equation for the EVI, they can be divided into two categroies: the two band or the three band approach. The original EVI - developed for MODIS - employed three spectral bands, but as many earth observation spectrometers lack a blue spectral channel, the two band approach doesn't make use of the blue band. 
 
-While there is no singular equation for the EVI, they can be divided into two categroies: the two band or the three band approach. The original EVI - developed for MODIS - used three bands, but as many earth observation spectrometers don't measure blue, two band approach doesn't make use of the blue band 
-
-
+These programs use the two band EVI, with indexes calculated to 
 
 - [ ] MODIS to S2 sensor calibration - indexes calculated from different instruments requires recalibration, due to the vareity in detector and filter characteristics.....  
 
 
-Citations: 
+EVI=  2.5*(NIR-RED)/NIR+(2.4*RED)+1
+for masking I used the esa-worldcovermap and excluded builtup, water and snow (doesnt ocur anyway)
 
-(https://pubmed.ncbi.nlm.nih.gov/28903251/)
-Matsushita B, Yang W, Chen J, Onda Y, Qiu G. Sensitivity of the Enhanced Vegetation Index (EVI) and Normalized Difference Vegetation Index (NDVI) to Topographic Effects: A Case Study in High-density Cypress Forest. Sensors (Basel). 2007 Nov 5;7(11):2636-2651. doi: 10.3390/s7112636. PMID: 28903251; PMCID: PMC3965234.
+
+
 
 
 ### Method of Comparison! 
@@ -145,6 +145,13 @@ Intended upgrades:
 
 * 0.1
     * Initial Release -> including some bug fixes and optimizations! 
+
+
+
+**Citations**: 
+
+(https://pubmed.ncbi.nlm.nih.gov/28903251/)
+Matsushita B, Yang W, Chen J, Onda Y, Qiu G. Sensitivity of the Enhanced Vegetation Index (EVI) and Normalized Difference Vegetation Index (NDVI) to Topographic Effects: A Case Study in High-density Cypress Forest. Sensors (Basel). 2007 Nov 5;7(11):2636-2651. doi: 10.3390/s7112636. PMID: 28903251; PMCID: PMC3965234.
 
 ## License
 
