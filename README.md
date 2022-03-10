@@ -6,13 +6,26 @@ EVI, or Enhanced Vegetation Index is a pixel-by-pixel computation performed over
 
 ### What is a Vegetation Index? 
 
-Remote sensing indexes generally serve the purpose of chracterizing the quantity and/or condition of vegetation. Simply measuring reflected light doesn't account for temporal and atmospheric effect on solar irradiance, and therefore, one must combine data from multiple spectral bands. Based on the absorbance/reflectance profiles of healthy vegetation, these band combinations can produce a measure vegetation health. 
+Remote sensing indexes generally serve the purpose of chracterizing the quantity and/or condition of vegetation. Simply measuring reflected light doesn't account for temporal and atmospheric effect on solar irradiance, and therefore, one must combine data from multiple spectral bands ( citation?). Based on the absorbance/reflectance profiles of healthy vegetation, these band combinations can produce a measure vegetation health. 
+
 
 ### What is the EVI? 
 
-- [ ] The Enhanced Vegetation Index is ...
+
+The enhanced vegetation index is a measure of ...
+
+The EVI shares many similarities with the well known NDVI (normalized difference vegetation index). However, NDVI is plagued by fluctuations induced by atmospheric conditions and soil background effects, limiting its applicability (Matssushita et. al). In comparison to NDVI, EVI was found to be more linearly correlated with green leaf area index (LAI) in crop fields (Boegh et al., 2002), less prone to saturation in temperate and tropical forests (Huete et al., 2006; Xiao et al., 2004),
+
+
+
 - [ ] Two band EVI 
 - [ ] MODIS to S2 sensor calibration - indexes calculated from different instruments requires recalibration, due to the vareity in detector and filter characteristics.....  
+
+
+(https://pubmed.ncbi.nlm.nih.gov/28903251/)
+
+Matsushita B, Yang W, Chen J, Onda Y, Qiu G. Sensitivity of the Enhanced Vegetation Index (EVI) and Normalized Difference Vegetation Index (NDVI) to Topographic Effects: A Case Study in High-density Cypress Forest. Sensors (Basel). 2007 Nov 5;7(11):2636-2651. doi: 10.3390/s7112636. PMID: 28903251; PMCID: PMC3965234.
+
 
 ### Method of Comparison! 
 
@@ -87,11 +100,15 @@ The following libraries are required:
 * tidyr
 * lubridate 
 
+
+
 ### Installing
 
 * Install above packages 
 * Can clone from: https://github.com/climatefarmers/vegetation-health/
 - [ ] indicate which scripts need file path specifications, etc. 
+
+
 
 ### Executing program
 
